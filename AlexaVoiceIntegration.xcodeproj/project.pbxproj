@@ -12,7 +12,28 @@
 		6C13C4C51CFF030800BA64D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C13C4C31CFF030800BA64D4 /* Main.storyboard */; };
 		6C13C4C71CFF030800BA64D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C13C4C61CFF030800BA64D4 /* Assets.xcassets */; };
 		6C13C4CA1CFF030800BA64D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C13C4C81CFF030800BA64D4 /* LaunchScreen.storyboard */; };
+		6C13C4D31CFF039000BA64D4 /* LoginWithAmazon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */; };
+		6C13C4D41CFF039000BA64D4 /* LoginWithAmazon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6C13C4D81CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4D71CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift */; };
+		6C13C4DA1D00690F00BA64D4 /* AIAuthenticationEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4D91D00690F00BA64D4 /* AIAuthenticationEventHandler.swift */; };
+		6C13C4DD1D00738300BA64D4 /* AVSUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4DB1D00738300BA64D4 /* AVSUploader.swift */; };
+		6C13C4DE1D00738300BA64D4 /* SimplePCMRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C13C4DC1D00738300BA64D4 /* SimplePCMRecorder.swift */; };
+		6C13C4E01D00820500BA64D4 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C13C4DF1D00820500BA64D4 /* AVKit.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C13C4D51CFF039000BA64D4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6C13C4D41CFF039000BA64D4 /* LoginWithAmazon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		6C13C4BC1CFF030700BA64D4 /* AlexaVoiceIntegration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexaVoiceIntegration.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,6 +43,13 @@
 		6C13C4C61CFF030800BA64D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C13C4C91CFF030800BA64D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C13C4CB1CFF030800BA64D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoginWithAmazon.framework; path = AlexaVoiceIntegration/LoginWithAmazon/LoginWithAmazon.framework; sourceTree = "<group>"; };
+		6C13C4D61CFF041800BA64D4 /* AlexaVoiceIntegration-ObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AlexaVoiceIntegration-ObjC.h"; path = "AlexaVoiceIntegration/AlexaVoiceIntegration-ObjC.h"; sourceTree = "<group>"; };
+		6C13C4D71CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableURLRequest+FormEncoded.swift"; sourceTree = "<group>"; };
+		6C13C4D91D00690F00BA64D4 /* AIAuthenticationEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AIAuthenticationEventHandler.swift; sourceTree = "<group>"; };
+		6C13C4DB1D00738300BA64D4 /* AVSUploader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AVSUploader.swift; path = AlexaVoiceIntegration/AVSUploader.swift; sourceTree = "<group>"; };
+		6C13C4DC1D00738300BA64D4 /* SimplePCMRecorder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimplePCMRecorder.swift; path = AlexaVoiceIntegration/SimplePCMRecorder.swift; sourceTree = "<group>"; };
+		6C13C4DF1D00820500BA64D4 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +57,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C13C4E01D00820500BA64D4 /* AVKit.framework in Frameworks */,
+				6C13C4D31CFF039000BA64D4 /* LoginWithAmazon.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +68,14 @@
 		6C13C4B31CFF030700BA64D4 = {
 			isa = PBXGroup;
 			children = (
+				6C13C4DF1D00820500BA64D4 /* AVKit.framework */,
+				6C13C4DB1D00738300BA64D4 /* AVSUploader.swift */,
+				6C13C4DC1D00738300BA64D4 /* SimplePCMRecorder.swift */,
+				6C13C4D91D00690F00BA64D4 /* AIAuthenticationEventHandler.swift */,
+				6C13C4D11CFF038800BA64D4 /* LoginWithAmazon.framework */,
 				6C13C4BE1CFF030800BA64D4 /* AlexaVoiceIntegration */,
 				6C13C4BD1CFF030700BA64D4 /* Products */,
+				6C13C4D61CFF041800BA64D4 /* AlexaVoiceIntegration-ObjC.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +96,7 @@
 				6C13C4C61CFF030800BA64D4 /* Assets.xcassets */,
 				6C13C4C81CFF030800BA64D4 /* LaunchScreen.storyboard */,
 				6C13C4CB1CFF030800BA64D4 /* Info.plist */,
+				6C13C4D71CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift */,
 			);
 			path = AlexaVoiceIntegration;
 			sourceTree = "<group>";
@@ -74,6 +111,7 @@
 				6C13C4B81CFF030700BA64D4 /* Sources */,
 				6C13C4B91CFF030700BA64D4 /* Frameworks */,
 				6C13C4BA1CFF030700BA64D4 /* Resources */,
+				6C13C4D51CFF039000BA64D4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,8 +173,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C13C4D81CFF747200BA64D4 /* NSMutableURLRequest+FormEncoded.swift in Sources */,
 				6C13C4C21CFF030800BA64D4 /* ViewController.swift in Sources */,
+				6C13C4DE1D00738300BA64D4 /* SimplePCMRecorder.swift in Sources */,
 				6C13C4C01CFF030800BA64D4 /* AppDelegate.swift in Sources */,
+				6C13C4DD1D00738300BA64D4 /* AVSUploader.swift in Sources */,
+				6C13C4DA1D00690F00BA64D4 /* AIAuthenticationEventHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +293,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlexaVoiceIntegration/LoginWithAmazon",
+				);
 				INFOPLIST_FILE = AlexaVoiceIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.batgar.AlexaVoiceIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlexaVoiceIntegration/AlexaVoiceIntegration-ObjC.h";
 			};
 			name = Debug;
 		};
@@ -262,10 +309,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AlexaVoiceIntegration/LoginWithAmazon",
+				);
 				INFOPLIST_FILE = AlexaVoiceIntegration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.batgar.AlexaVoiceIntegration;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AlexaVoiceIntegration/AlexaVoiceIntegration-ObjC.h";
 			};
 			name = Release;
 		};

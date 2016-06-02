@@ -2,6 +2,26 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>amzn-$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+			</array>
+			<key>CFBundleURLName</key>
+			<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+		</dict>
+	</array>
+	<key>APIKey</key>
+	<string>eyJhbGciOiJSU0EtU0hBMjU2IiwidmVyIjoiMSJ9.eyJ2ZXIiOiIzIiwiZW5kcG9pbnRzIjp7ImF1dGh6IjoiaHR0cHM6Ly93d3cuYW1hem9uLmNvbS9hcC9vYSIsInRva2VuRXhjaGFuZ2UiOiJodHRwczovL2FwaS5hbWF6b24uY29tL2F1dGgvbzIvdG9rZW4ifSwiY2xpZW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1vYTItY2xpZW50LmRiNWM5MzI1OTViNzQ5OTNiODliOWI1OWI2MGFkY2I1IiwiYXBwRmFtaWx5SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi44YzQ2YjhlMzM4ZjE0NDJiOWI5Y2FjZTU2MDE3ZTQ3YiIsImJ1bmRsZVNlZWRJZCI6ImNvbS5iYXRnYXIuQWxleGFWb2ljZUludGVncmF0aW9uIiwiYnVuZGxlSWQiOiJjb20uYmF0Z2FyLkFsZXhhVm9pY2VJbnRlZ3JhdGlvbiIsImlzcyI6IkFtYXpvbiIsInR5cGUiOiJBUElLZXkiLCJhcHBWYXJpYW50SWQiOiJhbXpuMS5hcHBsaWNhdGlvbi1jbGllbnQuY2I1OWY1ZjYzNDc4NGVkNmE4MGRhYTdkMzAwNjI2YWQiLCJ0cnVzdFBvb2wiOm51bGwsImFwcElkIjoiYW16bjEuYXBwbGljYXRpb24tY2xpZW50LmNiNTlmNWY2MzQ3ODRlZDZhODBkYWE3ZDMwMDYyNmFkIiwiaWQiOiJlNzNjM2YzOC0yN2YzLTExZTYtYTQ0OC05MzUwMzFiYTg2MmIiLCJpYXQiOiIxNDY0NzgzOTE5MTcxIn0=.LqsySdXeCjIEPFYq2KmRO9uHCBA9ThITn6fKtpx5QhD5sCCcCdUCNiP//qr3Iqu4BoLsbXd/EYEn/sX+eiDozw5dZTcc7jZsHxfHg4dp4Azs0+bYr3GSfVmygNDTbfH4dNMM1aNoYkkctluD77a04RagGCWr4q42SizNmtbSmQV5saJMBfRm+dfBxK5TI/p+6or/rh5M9GOOp5L+Ahd5TvWHci5xize8FLsGOnkVOojEXK0VD0RQRGKqpws2dbs3mv+o1A7WQz/7C9HLZw2+d5+SLo17JL3qX6GZOkxvDb8FqP51Bk/H0UfZPRiCx2YGN86p21K2UFm74lg3M7oasQ==</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>LSApplicationCategoryType</key>
+	<dict/>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
